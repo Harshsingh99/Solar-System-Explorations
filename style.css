@@ -1,0 +1,1662 @@
+/* #index {
+	width: 95%;
+	margin-right: 20%;
+} */
+
+#header {
+	background: url(images/header1.jpg);
+	height: 100px;
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 0px;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+
+}
+#logo img{
+	width: 100px;
+	height: 100px;
+}
+
+.selected{
+	float: right;
+}
+
+.selected ul {
+	list-style: none;
+	margin-left: -10%;
+}
+
+.selected ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.selected ul li a {
+	display: block;
+	padding: 15px 15px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-family: Arial black;
+}
+
+.selected ul li .dropdown li{
+	display: block;
+	margin-right: 10%;
+}
+
+.selected ul li .dropdown{
+	display: block;
+	position: absolute;
+	z-index: 999;
+
+	display: none;
+}
+
+.selected ul li a:hover{
+	color: rgb(248, 212, 212);
+}
+
+.selected ul li:hover .dropdown{
+	display: block;
+}
+
+/*------------------------------ CONTENTS ------------------------------*/
+body {
+	background: url(images/bg.planets.png);
+
+}
+
+#featured {
+
+	list-style: none;
+
+	/*margin: 0;
+	padding: 0;*/
+}
+
+#featured li {
+	display: inline-block;
+	width: 314px;
+	overflow: hidden;
+
+}
+
+#Solar-System h2 {
+	font-family: Bodoni MT Black;
+	color: yellow;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 30px red, 0 0 10px darkred;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+#Solar-System h2:hover {
+	transform: scale(1.2);
+	transition-duration: 2s;
+}
+
+a {
+	text-decoration: none;
+}
+
+#contents h4:hover {
+	color: #329df3;
+}
+
+#contents h4:visited {
+	color: Green;
+}
+
+#contents h4 {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 30px blue, 0 0 10px darkblue;
+}
+
+.items li p {
+	font-family: Georgia;
+	color: #8bcff3;
+	text-align: center;
+	font-size: 20px;
+}
+
+#featured img {
+	height: 200px;
+	width: 200px;
+	border-radius: 70px;
+	border: 2px solid black;
+	margin-left: 33%;
+}
+
+#featured img {
+	animation: rotation 8s infinite linear;
+}
+
+#featured h4 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	color: khaki;
+	text-decoration: none;
+	margin-left: 52%;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+.details {
+	font-family: Lucida Console;
+	color: paleturquoise;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 30px turquoise, 0 0 10px darkturquoise;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+.details:hover {
+	transform: scale(1.2);
+	transition-duration: 2s;
+}
+
+.pp a {
+	font-size: 25px;
+	color: paleturquoise;
+	margin-left: 45%;
+	font-family: Lucida Console;
+	text-shadow: 1px 1px 2px black, 0 0 30px turquoise, 0 0 10px darkturquoise;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+.pp:hover {
+	transform: scale(1.2);
+	transition-duration: 2s;
+}
+
+.aa a {
+	font-size: 25px;
+	color: paleturquoise;
+	margin-left: 35%;
+	font-family: Lucida Console;
+	text-shadow: 1px 1px 2px black, 0 0 30px turquoise, 0 0 10px darkturquoise;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+.aa:hover {
+	transform: scale(1.2);
+	transition-duration: 2s;
+}
+
+.bb {
+	display: flex;
+	margin-right: 18%;
+	justify-content: space-between;
+}
+
+#foot img {
+	height: 200px;
+	width: 200px;
+	border-radius: 70px;
+	border: 2px solid black;
+	margin-left: 50%;
+
+}
+
+#foot img {
+	animation: rotation 8s infinite linear;
+}
+
+
+
+#foot h4 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	color: khaki;
+	text-decoration: none;
+	margin-left: 70%;
+	text-align: center;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+.share {
+	font-family: monospace;
+	color: #d0d0d0;
+	text-align: center;
+	text-decoration-thickness: 1.5px;
+	padding-top: 5%;
+}
+
+#footer a {
+	color: #b1b1b1;
+}
+
+#footer a:hover {
+	color: #ab8e8e;
+}
+
+.col-1 {
+	font-family: Geneva, Verdana;
+	padding-top: 5%;
+	float: left;
+	width: 25%;
+}
+
+.col-1 h3 {
+	font-family: 'Times New Roman';
+	margin: 0;
+	padding-left: 40px;
+}
+
+.col-1 ul {
+	list-style: none;
+	margin: 0;
+}
+
+.col-1 li {
+	color: white;
+}
+
+.navigation {
+	overflow: hidden;
+	/* position: fixed;*/
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+
+.navigation ul {
+	list-style: none;
+	width: 50%;
+	margin: auto;
+}
+
+.navigation li {
+	width: 23%;
+	float: left;
+	text-decoration: none;
+	color: white;
+	border-right: #4e4e4e 1px solid;
+}
+
+.navigation li a {
+	color: #b0afaf;
+}
+
+.navigation li a:hover {
+	color: #ab8e8e;
+}
+
+/*------------------------------Planets----------------------------------*/
+
+body #Planets {
+background: url(images/bg.planets.png);
+}
+
+#Planets .items a {
+	color: #fb5858;
+	font-size: 18px;
+}
+
+#Planets .items a:hover{
+	color: #819a05;;
+}
+
+#Planets h2{
+		color: #ff9302;
+		font-size: 30px;
+		font-family: Bodoni MT Black;
+		margin-left: 42%;
+		text-shadow: 1px 1px 2px black, 0 0 30px aqua, 0 0 10px blue;
+		text-decoration: underline;
+		text-decoration-thickness: 1.5px;
+	}
+
+	#Planets .navigation li a {
+		color: #b0afaf;
+	}
+	
+	#Planets .navigation li a:hover {
+		color: #ab8e8e;
+	}
+	
+	.para {
+		color: #00ccff;
+		font-size: 18px;
+		font-family: cursive;
+	}
+	
+	b {
+		color: #0066ff;
+	}
+/*----------------------------------------- jt--------------------------------------- */
+
+#Planets .jj p {
+	color: #ababab;
+}
+
+.jt {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 300px;
+	width: 1400px;
+	margin-bottom: 25px;
+	margin-left: 47px;
+}
+
+#Planets .jt h3 img {
+	float: left;
+	margin-left: 20px;
+}
+
+#Planets .jt img {
+	border-radius: 80px;
+	border: 2px solid black;
+	margin-left: 140px;
+	margin-top: 37px;
+}
+
+#Planets .jt img {
+	animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/* -------------------------------jj--------------------------------- */
+
+.jj {
+	font-size: 22px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: right;
+	margin-top: 3px;
+	margin-right: 95px;
+
+
+}
+
+#Planets .jj h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+
+
+/* ------------------------st-------------------------------------- */
+
+#Planets .ss p {
+	color: #ababab;
+}
+
+.st {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 300px;
+	width: 1400px;
+	margin-bottom: 25px;
+	margin-left: 47px;
+}
+
+#Planets .st h3 img {
+	float: right;
+	margin-left: 20px;
+}
+
+#Planets .st img {
+	border-radius: 80px;
+	border: 2px solid black;
+	margin-left: 165px;
+	margin-top: 37px;
+}
+
+#Planets .st img {
+	animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/* -------------------------------ss--------------------------------- */
+
+.ss {
+	font-size: 22px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 110px;
+
+
+}
+
+#Planets .ss h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+/* ---------------------------ur----------------------------------- */
+
+#Planets .ura p {
+	color: #ababab;
+}
+
+.ura {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 300px;
+	width: 1400px;
+	margin-bottom: 25px;
+	margin-left: 47px;
+}
+
+#Planets .ura h3 img {
+	float: left;
+	margin-left: 20px;
+}
+
+#Planets .ura img {
+	border-radius: 80px;
+	border: 2px solid black;
+	margin-left: 140px;
+	margin-top: 50px;
+}
+
+#Planets .ura img {
+	animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/* -----------------------------uu-------------------------------- */
+
+.urn {
+	font-size: 22px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: right;
+	margin-top: 2px;
+	margin-right: 110px;
+
+
+}
+
+#Planets .urn h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+/* --------------------------nt------------------------------------- */
+
+#Planets .nt p {
+	color: #ababab;
+}
+
+.nt {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 270px;
+	width: 1400px;
+	margin-bottom: 25px;
+	margin-left: 47px;
+}
+
+#Planets .nt h3 img {
+	float: right;
+	margin-left: 20px;
+}
+
+#Planets .nt img {
+	border-radius: 80px;
+	border: 2px solid black;
+	margin-left: 165px;
+	margin-top: 32px;
+}
+
+#Planets .nt img {
+	animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/* -------------------------------np--------------------------------- */
+
+.np {
+	font-size: 22px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 110px;
+
+
+}
+
+#Planets .np h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+/* -----------------------------ea---------------------------- */
+
+#Planets .ea p {
+	color: #ababab;
+}
+
+.ea {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 300px;
+	width: 1400px;
+	margin-bottom: 25px;
+	margin-left: 47px;
+}
+
+#Planets .ea h3 img {
+	float: left;
+	margin-left: 20px;
+}
+
+#Planets .ea img {
+	border-radius: 80px;
+	border: 2px solid black;
+	margin-left: 140px;
+	margin-top: 50px;
+}
+
+#Planets .ea img {
+	animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/* -----------------------------et-------------------------------- */
+
+.et {
+	font-size: 22px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: right;
+	margin-top: 2px;
+	margin-right: 110px;
+
+
+}
+
+#Planets .et h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+/* -----------------------ve--------------------------------- */
+
+#Planets .ve p {
+	color: #ababab;
+}
+
+.ve {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 300px;
+	width: 1400px;
+	margin-bottom: 25px;
+	margin-left: 47px;
+}
+
+#Planets .ve h3 img {
+	float: right;
+	margin-left: 20px;
+}
+
+#Planets .ve img {
+	border-radius: 80px;
+	border: 2px solid black;
+	margin-left: 165px;
+	margin-top: 45px;
+}
+
+#Planets .ve img {
+	animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/* -------------------------------vn--------------------------------- */
+
+.vn {
+	font-size: 22px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 110px;
+
+
+}
+
+#Planets .vn h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+/* -------------------------------ma----------------------------------- */
+
+#Planets .ma p {
+	color: #ababab;
+}
+
+.ma {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 270px;
+	width: 1400px;
+	margin-bottom: 25px;
+	margin-left: 47px;
+}
+
+#Planets .ma h3 img {
+	float: left;
+	margin-left: 20px;
+}
+
+#Planets .ma img {
+	border-radius: 80px;
+	border: 2px solid black;
+	margin-left: 140px;
+	margin-top: 32px;
+}
+
+#Planets .ma img {
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/* -----------------------------ms-------------------------------- */
+
+.ms {
+	font-size: 22px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: right;
+	margin-top: 2px;
+	margin-right: 110px;
+
+
+}
+
+#Planets .ms h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+/* -------------------------------mr----------------------------------- */
+
+#Planets .mr p {
+	color: #ababab;
+}
+
+.mr {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 425px;
+	width: 1400px;
+	margin-bottom: 25px;
+	margin-left: 47px;
+}
+
+#Planets .mr h3 img {
+	float: right;
+	margin-left: 20px;
+}
+
+#Planets .mr img {
+	border-radius: 80px;
+	border: 2px solid black;
+	margin-left: 165px;
+	margin-top: 120px;
+}
+
+#Planets .mr img {
+	animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/* -------------------------------mc--------------------------------- */
+
+.mc {
+	font-size: 22px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 110px;
+
+
+}
+
+#Planets .mc h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+/*------------------------------------Dwarf Planets------------------------------------*/
+
+#dwarf {
+	width: 95%;
+	margin-right: 20%;
+}
+
+#dwarf p a {
+	color: #fb5858;
+}
+
+#dwarf p a:hover {
+	color: #d6ff02;
+}
+
+#dwarf h2 {
+	color: #ff9302;
+	font-size: 30px;
+	font-family: Bodoni MT Black;
+	color: #ff9302;
+	margin-left: 10%;
+	text-shadow: 1px 1px 2px black, 0 0 30px aqua, 0 0 10px blue;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+#dwarf li p {
+	color: #ffea9cd9;
+}
+
+.def {
+	color: #fbdc58;
+	font-size: 18;
+	font-family: cursive;
+	text-align: center;
+}
+
+#dwarf #pt h3 {
+	font-family: Cooper Black;
+	font-size: 30px;
+}
+
+#dwarf #pt a {
+	text-align: center;
+	color: #fb5858;
+	font-size: 18px;
+}
+
+#dwarf #pt a:hover {
+	color: #fbb858;
+}
+
+b {
+	color: #b2e767;
+}
+
+#dwarf .share h1 {
+	color: #d0d0d0;
+	cursor: auto;
+}
+
+/*-----------------------------------------acm-----------------------------------------*/
+
+/* #acm {
+	width: 95%;
+	margin-right: 20%;
+} */
+
+#acm p a {
+	color: #fb5858;
+}
+
+#acm p a:hover {
+	color: #d6ff02;
+}
+
+#acm h2 {
+	color: #91ff6f;
+	font-size: 30px;
+	font-family: Bodoni MT Black;
+	color: #d6ff02;
+	margin-left: 10%;
+	text-shadow: 1px 1px 2px black, 0 0 30px aqua, 0 0 10px blue;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+#acm li p {
+	color: #58fba2;
+}
+
+#acm #pt h3 {
+	font-family: Cooper Black;
+	font-size: 30px;
+}
+
+#acm #pt a {
+	text-align: center;
+	color: #fb5858;
+	font-size: 18px;
+}
+
+#acm #pt a:hover {
+	color: #fbb858;
+}
+
+b {
+	color: #a0ff1a;
+}
+
+#acm .ovr {
+	color: #58fba2;
+	font-size: 18px;
+	font-family: Rockwell;
+}
+
+/*---------------------------------------Moons-----------------------------------------*/
+
+#Moons h2 {
+	font-size: 30px;
+	font-family: Bodoni MT Black;
+	color: #f2ffb0;
+	margin-left: 35%;
+	text-shadow: 1px 1px 2px black, 0 0 30px aqua, 0 0 10px purple;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+	text-align: center;
+}
+
+#Moons p a {
+	color: khaki;
+}
+
+#Moons p a:hover {
+	color: blue;
+}
+
+#Moons b {
+	color: #f6d6b3;
+	font-size: 18px;
+	font-family: Maiandra GD;
+}
+
+#Moons .em p {
+	color: #d0d0d0;
+}
+
+.e1 {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 350px;
+	width: 1400px;
+	margin-bottom: 25px;
+}
+
+
+#Moons .e1 h3 img {
+	float: left;
+}
+
+#Moons .e1 img {
+	border-radius: 160px;
+	border: 2px solid black;
+	margin-left: 80px;
+	margin-top: 23px;
+}
+
+.em {
+	font-size: 8px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 40px;
+
+
+}
+
+#Moons .em h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+}
+
+#Moons .e1 img {
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+
+
+/*-----------------------------------------------m1--------------------------------------------------*/
+
+
+#Moons .mm p {
+	color: #d0d0d0;
+}
+
+.m1 {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 450px;
+	width: 1400px;
+	margin-bottom: 25px;
+}
+
+#Moons .m1 h3 img {
+	float: right;
+}
+
+#Moons .m1 img {
+	border-radius: 160px;
+	border: 2px solid black;
+	margin-left: 214px;
+	margin-top: 70px;
+}
+
+.mm {
+	font-size: 8px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 40px;
+
+
+}
+
+#Moons .mm h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+}
+
+#Moons .m1 img {
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/*<------------------------------------------jm--------------------------------------------*/
+
+#Moons .jm p {
+	color: #91ff6f;
+}
+
+.j1 {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 392px;
+	width: 1400px;
+	margin-bottom: 25px;
+}
+
+#Moons .j1 h3 img {
+	float: left;
+}
+
+#Moons .j1 img {
+	border-radius: 160px;
+	border: 2px solid black;
+	margin-left: 165px;
+	margin-top: 75px;
+}
+
+.jm {
+	font-size: 8px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 0px 65px;
+	float: right;
+	margin-top: 25px;
+
+
+}
+
+#Moons .jm h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+}
+
+#Moons .j1 img {
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/*-------------------------------------------sm----------------------------------*/
+
+#Moons .sm p {
+	color: #d2d2d2;
+}
+
+.s1 {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 385px;
+	width: 1400px;
+	margin-bottom: 25px;
+}
+
+#Moons .s1 h3 img {
+	float: right;
+}
+
+#Moons .s1 img {
+	border-radius: 160px;
+	border: 2px solid black;
+	margin-left: 188px;
+	margin-top: 60px;
+}
+
+.sm {
+	font-size: 8px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+
+
+}
+
+#Moons .sm h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+}
+
+#Moons .s1 img {
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+
+/*--------------------------------------um-------------------------------------*/
+
+#Moons .um p {
+	color: #cdcbcb;
+}
+
+.u1 {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 455px;
+	width: 1400px;
+	margin-bottom: 25px;
+}
+
+#Moons .u1 h3 img {
+	float: left;
+}
+
+#Moons .u1 img {
+	border-radius: 160px;
+	border: 2px solid black;
+	margin-left: 160px;
+	margin-top: 88px;
+}
+
+.um {
+	font-size: 8px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 40px;
+
+
+}
+
+#Moons .um h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+}
+
+#Moons .u1 img {
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/*-------------------------------------------------nm---------------------------------------------*/
+
+#Moons .nm p {
+	color: #b1caed;
+}
+
+.n1 {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 455px;
+	width: 1400px;
+	margin-bottom: 25px;
+}
+
+#Moons .n1 h3 img {
+	float: right;
+}
+
+#Moons .n1 img {
+	border-radius: 160px;
+	border: 2px solid black;
+	margin-left: 145px;
+	margin-top: 104px;
+}
+
+.nm {
+	font-size: 8px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+
+
+}
+
+#Moons .nm h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+}
+
+#Moons .n1 img {
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/*-----------------------------pm----------------------------------*/
+
+#Moons .pm p {
+	color: #ababab;
+}
+
+.p1 {
+	display: inline-block;
+	border: 2px solid grey;
+	border-radius: 50px;
+	height: 455px;
+	width: 1400px;
+	margin-bottom: 25px;
+}
+
+#Moons .p1 h3 img {
+	float: left;
+}
+
+#Moons .p1 img {
+	border-radius: 160px;
+	border: 2px solid black;
+	margin-left: 140px;
+	margin-top: 88px;
+}
+
+.pm {
+	font-size: 8px;
+	width: 50%;
+	flex-wrap: wrap;
+	padding: 3px 3px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 40px;
+
+
+}
+
+#Moons .pm h3 {
+	color: #fcff20;
+	font-size: 30px;
+	text-align: center;
+}
+
+#Moons .p1 img {
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+/*-----------------------------------Sun--------------------------------------*/
+
+/* #sun {
+	width: 95%;
+	margin-left: 2%;
+} */
+
+
+
+#sun h2 {
+	font-size: 30px;
+	font-family: Bodoni MT Black;
+	color: #38fdc0;
+	margin-left: 10%;
+	text-shadow: 1px 1px 2px black, 0 0 30px #ff0b0b, 0 0 10px #490049;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+	text-align: center;
+	padding-left: 155px;
+}
+
+#sun p {
+	color: #dbd0ff;
+	font-size: 18px;
+	font-family: cursive;
+	margin: 20px;
+}
+
+#sun .vid {
+	margin-left: 30%;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+#sun .b1 {
+	border: 2px solid grey;
+	border-radius: 20px;
+	width: 1490px;
+}
+
+#sun .b2 {
+	border: 2px solid grey;
+	border-radius: 20px;
+	width: 1490px;
+}
+
+#sun .b3 {
+	border: 2px solid grey;
+	border-radius: 20px;
+	width: 1490px;
+}
+
+#sun .b4 {
+	border: 2px solid grey;
+	border-radius: 20px;
+	width: 1490px;
+}
+
+#sun .b5 {
+	border: 2px solid grey;
+	border-radius: 20px;
+	width: 1490px;
+}
+
+#sun h1 {
+	font-size: 30px;
+	font-family: Bodoni MT Black;
+	color: #f2ffb0;
+	margin-left: -7%;
+	text-shadow: 1px 1px 2px black, 0 0 30px aqua, 0 0 10px purple;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+	text-align: center;
+	padding-left: 155px;
+}
+
+#sun h1:hover {
+	transform: scale(1.2);
+	transition-duration: 2s;
+}
+
+#sun .b4 img {
+	margin-left: 30%;
+	border: 1px solid black;
+	border-radius: 70%;
+	animation: rotation 8s infinite linear;
+	margin-left: 39%;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+
+#sun .b5 img {
+	border: 2px solid black;
+}
+
+/*--------------------------Eclipse-----------------------------------*/
+
+#Eclipse p a {
+	color: #fb5858;
+}
+
+#Eclipse p a:hover {
+	color: #d6ff02;
+}
+
+#Eclipse h2 {
+	color:  #06ffac;
+	font-size: 30px;
+	font-family: Bodoni MT Black;
+	margin-left: 10%;
+	text-shadow: 1px 1px 2px black, 0 0 30px aqua, 0 0 10px blue;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+#Eclipse .vid{
+	margin-left: 30%;
+}
+
+#Eclipse li p {
+	color: #e69d53;
+}
+
+.tse h1{
+	font-size: 30px;
+	font-family: Bodoni MT Black;
+	color: #06ffac;
+	margin-left: 42%;
+	text-shadow: 1px 1px 2px black, 0 0 30px aqua, 0 0 10px blue;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+.i1{
+	margin-left: 23%;
+}
+
+.tse p{
+	color: #ddf582;
+	font-size: 18px;
+	font-family: cursive;
+	text-align-last: center;
+}
+
+#Eclipse .pse h2{
+	margin-left: 42%;
+}
+
+.pse p{
+	color: blanchedalmond;
+	font-size: 18px;
+	font-family: cursive;
+}
+
+hr {
+	border:none;
+	border-top:1px dashed rgb(110, 110, 110);
+	height:1px;
+	width:90%;
+	}
+
+#Eclipse #pt h3 {
+	font-family: Cooper Black;
+	font-size: 30px;
+}
+
+#Eclipse #pt a {
+	text-align: center;
+	color: #fb5858;
+	font-size: 18px;
+}
+
+#Eclipse #pt a:hover {
+	color: #fbb858;
+}
+
+b {
+	color: #a0ff1a;
+}
+
+#Eclipse {
+	color: #58fba2;
+	font-size: 18px;
+	font-family: Rockwell;
+}
+
+#Eclipse .i2{
+	margin-left: 32%;
+}
+
+#Eclipse .ase h2{
+	margin-left: 42%;
+}
+
+.ase p{
+	color: #8bcff3;
+	font-size: 18px;
+	font-family: cursive;
+	text-align-last: center;
+}
+
+#Eclipse .i3{
+	margin-left: 24%;
+}
+
+.le p{
+	color: thistle;
+	font-size: 18px;
+	font-family: cursive;
+	text-align-last: center;
+}
+
+#Eclipse .ques h2{
+	font-size: 30px;
+	font-family: Bodoni MT Black;
+	color: #06ffac;
+	margin-left: 32%;
+	text-shadow: 1px 1px 2px black, 0 0 30px aqua, 0 0 10px blue;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+}
+
+#Eclipse .i4{
+	margin-left: 31%;
+}
+
+.ques p{
+	color: rosybrown;
+	font-size: 18px;
+	font-family: cursive;
+	text-align-last: center;
+}
